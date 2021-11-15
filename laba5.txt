@@ -1,0 +1,242 @@
+{
+  viewer {
+    login
+    name
+    email
+    url
+    repositories(first:50, affiliations:[OWNER]) {
+      nodes {
+        name
+        owner {
+          login
+        }
+        createdAt
+        description
+        url
+      }
+    }
+  }
+}
+
+
+{
+  "data": {
+    "viewer": {
+      "login": "agd01991",
+      "name": "Andrey",
+      "email": "",
+      "url": "https://github.com/agd01991",
+      "repositories": {
+        "nodes": [
+          {
+            "name": "pd",
+            "owner": {
+              "login": "agd01991"
+            },
+            "createdAt": "2020-03-24T06:22:45Z",
+            "description": null,
+            "url": "https://github.com/agd01991/pd"
+          },
+          {
+            "name": "mine",
+            "owner": {
+              "login": "agd01991"
+            },
+            "createdAt": "2020-03-24T06:23:42Z",
+            "description": null,
+            "url": "https://github.com/agd01991/mine"
+          },
+          {
+            "name": "-FSC",
+            "owner": {
+              "login": "agd01991"
+            },
+            "createdAt": "2020-03-24T07:33:07Z",
+            "description": null,
+            "url": "https://github.com/agd01991/-FSC"
+          },
+          {
+            "name": "lab6",
+            "owner": {
+              "login": "agd01991"
+            },
+            "createdAt": "2021-03-11T08:02:56Z",
+            "description": null,
+            "url": "https://github.com/agd01991/lab6"
+          },
+          {
+            "name": "lab3",
+            "owner": {
+              "login": "agd01991"
+            },
+            "createdAt": "2021-03-12T04:01:16Z",
+            "description": null,
+            "url": "https://github.com/agd01991/lab3"
+          },
+          {
+            "name": "kaban",
+            "owner": {
+              "login": "agd01991"
+            },
+            "createdAt": "2021-03-12T05:03:51Z",
+            "description": null,
+            "url": "https://github.com/agd01991/kaban"
+          },
+          {
+            "name": "kanab",
+            "owner": {
+              "login": "agd01991"
+            },
+            "createdAt": "2021-03-12T05:37:01Z",
+            "description": null,
+            "url": "https://github.com/agd01991/kanab"
+          },
+          {
+            "name": "lab5-6",
+            "owner": {
+              "login": "agd01991"
+            },
+            "createdAt": "2021-03-12T09:27:30Z",
+            "description": null,
+            "url": "https://github.com/agd01991/lab5-6"
+          },
+          {
+            "name": "projekt",
+            "owner": {
+              "login": "agd01991"
+            },
+            "createdAt": "2021-03-13T05:47:49Z",
+            "description": null,
+            "url": "https://github.com/agd01991/projekt"
+          },
+          {
+            "name": "dmitriev1220",
+            "owner": {
+              "login": "agd01991"
+            },
+            "createdAt": "2021-04-28T09:29:03Z",
+            "description": null,
+            "url": "https://github.com/agd01991/dmitriev1220"
+          },
+          {
+            "name": "project1",
+            "owner": {
+              "login": "agd01991"
+            },
+            "createdAt": "2021-04-28T10:23:22Z",
+            "description": null,
+            "url": "https://github.com/agd01991/project1"
+          },
+          {
+            "name": "project11",
+            "owner": {
+              "login": "agd01991"
+            },
+            "createdAt": "2021-04-28T10:24:38Z",
+            "description": null,
+            "url": "https://github.com/agd01991/project11"
+          },
+          {
+            "name": "project12",
+            "owner": {
+              "login": "agd01991"
+            },
+            "createdAt": "2021-04-28T10:36:53Z",
+            "description": null,
+            "url": "https://github.com/agd01991/project12"
+          },
+          {
+            "name": "project13",
+            "owner": {
+              "login": "agd01991"
+            },
+            "createdAt": "2021-04-28T10:37:20Z",
+            "description": null,
+            "url": "https://github.com/agd01991/project13"
+          },
+          {
+            "name": "project14",
+            "owner": {
+              "login": "agd01991"
+            },
+            "createdAt": "2021-04-28T10:37:44Z",
+            "description": null,
+            "url": "https://github.com/agd01991/project14"
+          },
+          {
+            "name": "project15",
+            "owner": {
+              "login": "agd01991"
+            },
+            "createdAt": "2021-04-28T10:38:03Z",
+            "description": null,
+            "url": "https://github.com/agd01991/project15"
+          },
+          {
+            "name": "project16",
+            "owner": {
+              "login": "agd01991"
+            },
+            "createdAt": "2021-04-28T10:38:17Z",
+            "description": null,
+            "url": "https://github.com/agd01991/project16"
+          },
+          {
+            "name": "php",
+            "owner": {
+              "login": "agd01991"
+            },
+            "createdAt": "2021-04-29T06:54:25Z",
+            "description": null,
+            "url": "https://github.com/agd01991/php"
+          },
+          {
+            "name": "apilab",
+            "owner": {
+              "login": "agd01991"
+            },
+            "createdAt": "2021-05-22T07:43:44Z",
+            "description": null,
+            "url": "https://github.com/agd01991/apilab"
+          },
+          {
+            "name": "ingprod",
+            "owner": {
+              "login": "agd01991"
+            },
+            "createdAt": "2021-09-16T18:01:13Z",
+            "description": null,
+            "url": "https://github.com/agd01991/ingprod"
+          },
+          {
+            "name": "mobDev",
+            "owner": {
+              "login": "agd01991"
+            },
+            "createdAt": "2021-09-25T09:24:24Z",
+            "description": null,
+            "url": "https://github.com/agd01991/mobDev"
+          },
+          {
+            "name": "django1",
+            "owner": {
+              "login": "agd01991"
+            },
+            "createdAt": "2021-10-04T06:51:46Z",
+            "description": null,
+            "url": "https://github.com/agd01991/django1"
+          },
+          {
+            "name": "labaWEB",
+            "owner": {
+              "login": "agd01991"
+            },
+            "createdAt": "2021-11-15T16:03:33Z",
+            "description": null,
+            "url": "https://github.com/agd01991/labaWEB"
+          }
+        ]
+      }
+    }
+  }
+}
