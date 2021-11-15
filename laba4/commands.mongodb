@@ -1,0 +1,28 @@
+use("db");
+
+// db.createCollection("animals");
+// db.createCollection("animaltype");
+
+// db.animals.insertMany([
+//     {"name":"Ashan","age":12},
+//     {"name":"Benya","age":3},
+//     {"name":"Kesha","age":1},
+//     {"name":"Barsik","age":7}
+// ]);
+
+// db.animals.find(
+//     {"name":"Kesha"}
+// );
+
+// db.animals.update(
+//     {"name":"Kesha"},
+//     {$set:{"name":"Popka"}}
+// )
+
+// db.animals.deleteOne(
+//     {"name":"Popka"}
+// )
+
+db.animals.insertOne(
+    {"name":"Kesha","age":1}
+);
